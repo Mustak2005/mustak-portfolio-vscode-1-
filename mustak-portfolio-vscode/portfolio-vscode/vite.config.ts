@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import path from "path";
 
 export default defineConfig({
-  base: "/mustak-portfolio-vscode-1/",
+  base: "/mustak-portfolio-vscode-1-/",
 
   plugins: [react(), tailwindcss()],
 
