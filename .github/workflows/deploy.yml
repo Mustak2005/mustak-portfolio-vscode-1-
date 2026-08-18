@@ -22,15 +22,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: portfolio-vscode/package-lock.json
 
       - name: Install dependencies
-        working-directory: portfolio-vscode
-        run: npm ci
+        working-directory: mustak-portfolio-vscode/portfolio-vscode
+        run: npm install
 
       - name: Build
-        working-directory: portfolio-vscode
+        working-directory: mustak-portfolio-vscode/portfolio-vscode
         run: npm run build
 
       - name: Setup Pages
@@ -39,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: portfolio-vscode/dist
+          path: mustak-portfolio-vscode/portfolio-vscode/dist
 
   deploy:
     environment:
