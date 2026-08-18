@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       - name: Build
-        working-directory: portfolio-vscode
+        working-directory: mustak-portfolio-vscode/portfolio-vscode
         run: npm run build
 
       - name: Setup Pages
@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: portfolio-vscode/dist
+          path: mustak-portfolio-vscode/portfolio-vscode/dist
 
   deploy:
     environment:
