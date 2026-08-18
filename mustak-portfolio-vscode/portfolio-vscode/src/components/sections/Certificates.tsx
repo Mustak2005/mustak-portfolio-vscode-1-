@@ -2,13 +2,12 @@ import { motion } from "framer-motion";
 import { SectionTitle } from "../SectionTitle";
 import { ExternalLink } from "lucide-react";
 // EDIT: Replace these imports with your own certificate images in src/assets/
-import cert1 from "@assets/cert1.jpg";
-import cert2 from "@assets/cert2.jpg";
-import cert3 from "@assets/cert3.jpg";
-import cert4 from "@assets/cert4.jpg";
-import cert5 from "@assets/cert5.jpg";
-import cert6 from "@assets/cert6.jpg";
-
+import cert1 from "../../assets/cert1.jpg";
+import cert2 from "../../assets/cert2.jpg";
+import cert3 from "../../assets/cert3.jpg";
+import cert4 from "../../assets/cert4.jpg";
+import cert5 from "../../assets/cert5.jpg";
+import cert6 from "../../assets/cert6.jpg";
 export function Certificates() {
   // EDIT: Update certificate titles, issuers, dates, and images
   const certificates = [
