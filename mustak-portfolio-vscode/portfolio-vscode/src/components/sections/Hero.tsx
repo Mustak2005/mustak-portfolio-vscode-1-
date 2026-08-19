@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 // EDIT: Replace with your own profile photo path if you change the image filename
-import profilePhoto from "@assets/profile.png";
+import profilePhoto from "../../assets/profile.png";
 
 export function Hero() {
   const [titleIndex, setTitleIndex] = useState(0);
