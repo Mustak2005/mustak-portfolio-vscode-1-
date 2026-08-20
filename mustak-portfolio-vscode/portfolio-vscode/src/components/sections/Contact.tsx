@@ -24,7 +24,7 @@ export function Contact() {
 
           {/* EDIT: Replace the href below with your real LinkedIn profile URL */}
           <a
-            href="https://www.linkedin.com/in/smd-mustak-29606432b"
+            href="https://www.linkedin.com/in/smd-mustak-29606432b/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-3 px-8 py-4 rounded-full bg-[rgba(0,128,255,0.1)] border border-[rgba(0,128,255,0.3)] hover:bg-[rgba(0,128,255,0.2)] hover:border-[#00BFFF] hover:shadow-[0_0_20px_rgba(0,128,255,0.3)] transition-all duration-300"
